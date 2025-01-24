@@ -1,0 +1,59 @@
+.game-container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    height: 97%;
+    /* padding: 10px 0; */
+    width: 70%;
+    /* background-color: #124076; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cards-container{
+    /* background-color: aliceblue; */
+    /* display: block; */
+    position: relative;
+    top:10px;
+    height: 450px;
+    width:600px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-div:nth-child(1) {
+    z-index: 5;
+    transform: translateX(80px) translateY(-20px);
+  }
+  
+  .card-div:nth-child(2) {
+    z-index: 4;
+    transform: translateX(40px) translateY(-10px);
+  }
+  
+  .card-div:nth-child(3) {
+    z-index: 3;
+    transform: translateX(0px) translateY(0px);
+  }
+  .card-div:nth-child(4) {
+    z-index: 2;
+    transform: translateX(-40px) translateY(10px);
+  }
+  .card-div:nth-child(5) {
+    z-index: 1;
+    transform: translateX(-80px) translateY(20px);
+  }
+
+  .button-div button{
+    background-color: #124076;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: 1000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
